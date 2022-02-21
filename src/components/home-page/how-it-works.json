@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_home_page_how_it_works",
+  "info": {
+    "name": "howItWorks",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "stepsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.steps-list",
+      "required": true
+    }
+  }
+}

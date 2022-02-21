@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_sections",
+  "info": {
+    "name": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.hero-section"
+    },
+    "aboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.about-us"
+    },
+    "gallery": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.gallery"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.faqs"
+    },
+    "howItWorks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.how-it-works"
+    }
+  }
+}
