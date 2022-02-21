@@ -1,9 +1,17 @@
 {
   "collectionName": "components_home_page_faqs",
   "info": {
-    "name": "faqs",
-    "icon": "question"
+    "displayName": "Faqs List",
+    "icon": "question",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
 }

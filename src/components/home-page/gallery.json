@@ -1,8 +1,9 @@
 {
   "collectionName": "components_home_page_galleries",
   "info": {
-    "name": "gallery",
-    "icon": "images"
+    "displayName": "Gallery Section",
+    "icon": "images",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,16 +11,15 @@
       "type": "string"
     },
     "images": {
-      "collection": "file",
-      "via": "related",
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+        "videos",
+        "audios"
+      ]
     }
   }
 }

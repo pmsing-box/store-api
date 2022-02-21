@@ -1,7 +1,7 @@
 {
   "collectionName": "components_home_page_hero_sections",
   "info": {
-    "name": "Hero Section",
+    "displayName": "Hero Section",
     "icon": "align-center",
     "description": ""
   },
@@ -14,16 +14,14 @@
       "type": "text"
     },
     "backgroundImage": {
-      "collection": "file",
-      "via": "related",
       "allowedTypes": [
         "images",
         "files",
-        "videos"
+        "videos",
+        "audios"
       ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+      "type": "media",
+      "multiple": false
     }
   }
 }

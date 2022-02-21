@@ -1,13 +1,13 @@
 {
   "collectionName": "components_home_page_how_it_works",
   "info": {
-    "name": "howItWorks",
+    "displayName": "Steps Section",
     "icon": "atlas",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
     "stepsList": {

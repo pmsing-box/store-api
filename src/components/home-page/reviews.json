@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_page_reviews",
+  "info": {
+    "displayName": "Reviews Section",
+    "icon": "comments",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "reviewsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.reviews-list"
+    }
+  }
+}

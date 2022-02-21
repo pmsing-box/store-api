@@ -1,7 +1,7 @@
 {
   "collectionName": "components_home_page_steps_lists",
   "info": {
-    "name": "stepsList",
+    "displayName": "Steps List",
     "icon": "angle-double-up"
   },
   "options": {},

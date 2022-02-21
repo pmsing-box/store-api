@@ -1,13 +1,13 @@
 {
   "kind": "singleType",
-  "collectionName": "home_sections",
+  "collectionName": "homes",
   "info": {
-    "name": "Home Page",
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
     "description": ""
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
     "draftAndPublish": true
   },
   "pluginOptions": {},
